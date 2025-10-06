@@ -14,19 +14,6 @@ Terminal-based ASCII clock with animated hands.
 - Optional color support
 - Terminal-aware scaling
 
-## Usage
-
-```bash
-# Basic usage
-cargo run
-
-# With color
-cargo run -- --color
-
-# Exit
-Press 'q'
-```
-
 ## Requirements
 
 - Rust 1.70+
@@ -41,8 +28,25 @@ Press 'q'
 ## Installation
 
 ```bash
-git clone <repository>
+git clone https://github.com/Cod-e-Codes/tuiclock.git
 cd tuiclock
 cargo build --release
 ./target/release/tuiclock
 ```
+
+## Usage
+
+```bash
+# Basic usage
+cargo run
+
+# With color
+cargo run -- --color
+
+# Exit
+Press 'q'
+```
+
+## License
+
+MIT License - see [LICENSE](LICENSE) file for details.
